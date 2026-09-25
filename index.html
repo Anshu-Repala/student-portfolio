@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anshu Repala - Computer Science Student Portfolio</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <!-- Logo / Name -->
+            <a href="#home" class="nav-logo">
+                <span class="logo-accent">&lt;</span>Anshu Repala<span class="logo-accent"> /&gt;</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                    <li><a href="#coding-profiles" class="nav-link">Profiles</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Mobile Menu Toggle Icon -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- 1. HOME / HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <p class="hero-subtitle">Hi, my name is</p>
+                    <h1 class="hero-title">Anshu Repala</h1>
+                    <h2 class="hero-tagline">Computer Science Undergraduate</h2>
+                    <p class="hero-description">
+                        Motivated Computer Science undergraduate with a foundation in Java, Python, and C++, with hands-on experience in full-stack web development, database management, and problem-solving.
+                    </p>
+
+                    <!-- Hero Call to Action Buttons -->
+                    <div class="hero-buttons">
+                        <a href="resume.pdf.pdf" class="btn btn-primary" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+                        </a>
+                        <a href="https://github.com/Anshu-Repala" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/anshu-repala-681aa2319/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Profile Visual / Avatar Card -->
+                <div class="hero-visual">
+                    <div class="profile-card">
+                        <div class="avatar-placeholder">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                        <div class="profile-info">
+                            <span class="status-badge"><span class="pulse-dot"></span> Open to Internships</span>
+                            <p class="profile-detail"><strong>Branch:</strong> Computer Science & Engineering</p>
+                            <p class="profile-detail"><strong>College:</strong> IARE, Hyderabad</p>
+                            <p class="profile-detail"><strong>CGPA:</strong> 8.1 / 10</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 2. ABOUT ME SECTION -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="underline"></div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            Motivated Computer Science undergraduate with a foundation in Java, Python, and C++, with hands-on experience in full-stack web development, database management, and problem-solving.
+                        </p>
+                        <p>
+                            I enjoy building practical software applications, learning modern web technologies, and constantly refining my problem-solving skills through platforms like LeetCode, GeeksforGeeks, and HackerRank.
+                        </p>
+                    </div>
+
+                    <!-- Quick Information Highlights -->
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Degree</h3>
+                            <p>B.Tech in CSE</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <h3>College</h3>
+                            <p>IARE, Hyderabad</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <h3>CGPA</h3>
+                            <p>8.1 / 10</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <h3>Expected Graduation</h3>
+                            <p>May 2028</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 3. INTERNSHIP / EXPERIENCE SECTION -->
+        <section id="experience" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Internship Experience</h2>
+                <div class="underline"></div>
+
+                <div class="timeline">
+                    <!-- Internship Item -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">April 2026 - June 2026</span>
+                            <h3 class="timeline-title">Full-Stack Web Development Intern</h3>
+                            <h4 class="timeline-subtitle">Jyesta Corporate Entity</h4>
+                            <p class="timeline-description">
+                                Gained practical experience in full-stack web development, working with frontend interfaces, backend code, database integration, and feature development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 4. SKILLS SECTION -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="underline"></div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Programming Languages -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-check"></i> Java</li>
+                            <li><i class="fa-solid fa-check"></i> Python</li>
+                            <li><i class="fa-solid fa-check"></i> C++</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 2: Core Subjects -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-book-bookmark"></i>
+                            <h3>Core CS Subjects</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-check"></i> Data Structures & Algorithms</li>
+                            <li><i class="fa-solid fa-check"></i> Object-Oriented Programming</li>
+                            <li><i class="fa-solid fa-check"></i> DBMS</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3: Web Technologies & Database -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Web & Database</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-check"></i> HTML & CSS</li>
+                            <li><i class="fa-solid fa-check"></i> PHP</li>
+                            <li><i class="fa-solid fa-check"></i> MySQL</li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 4: Tools & Platforms -->
+                    <div class="skill-card">
+                        <div class="skill-card-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fa-solid fa-check"></i> Git</li>
+                            <li><i class="fa-solid fa-check"></i> GitHub</li>
+                            <li><i class="fa-solid fa-check"></i> VS Code</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 5. EDUCATION SECTION -->
+        <section id="education" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="underline"></div>
+
+                <div class="timeline">
+                    <!-- Education Item -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Expected Completion: May 2028</span>
+                            <h3 class="timeline-title">B.Tech in Computer Science and Engineering</h3>
+                            <h4 class="timeline-subtitle">Institute of Aeronautical Engineering, Hyderabad</h4>
+                            <span class="gpa-badge">CGPA: 8.1 / 10</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 6. PROJECTS SECTION -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="underline"></div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Student Management System -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anshu-Repala" target="_blank" rel="noopener noreferrer" title="View Source Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" title="Live Demo (Placeholder)"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Student Management System</h3>
+                        <p class="project-description">
+                            Built a system to manage student records, attendance, and academic details. Implemented CRUD functionality in Java with JDBC-based MySQL connectivity. Designed a clean and responsive user interface for data entry.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Personal Portfolio Website -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-regular fa-folder-open project-icon"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/Anshu-Repala" target="_blank" rel="noopener noreferrer" title="View Source Code"><i class="fa-brands fa-github"></i></a>
+                                <a href="#" target="_blank" rel="noopener noreferrer" title="Live Demo (Placeholder)"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">
+                            A responsive personal portfolio website created to showcase my education, technical skills, projects, certifications, and contact information. Includes section navigation and responsive layout.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 7. CERTIFICATIONS SECTION -->
+        <section id="certifications" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Certifications</h2>
+                <div class="underline"></div>
+
+                <div class="certifications-grid">
+                    <!-- Certificate 1: AI for Beginners -->
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3 class="cert-title">AI for Beginners</h3>
+                            <a href="certifications/AI-for-Beginners.pdf.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                View Certificate <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 2: AI Fundamentals - IBM -->
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3 class="cert-title">AI Fundamentals</h3>
+                            <p class="cert-issuer">Issued by: <strong>IBM</strong></p>
+                            <a href="certifications/AI-Fundamentals-IBM.pdf.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                View Certificate <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 3: IBM Design -->
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3 class="cert-title">IBM Design</h3>
+                            <p class="cert-issuer">Issued by: <strong>IBM</strong></p>
+                            <a href="certifications/IBM-Design.pdf.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                View Certificate <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 4: Java Basic -->
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3 class="cert-title">Java Basic</h3>
+                            <a href="certifications/Java-Basic.pdf.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                View Certificate <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 5: Problem Solving Basic -->
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3 class="cert-title">Problem Solving Basic</h3>
+                            <a href="certifications/Problem-Solving-Basic.pdf.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                View Certificate <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 6: Python Basic -->
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3 class="cert-title">Python Basic</h3>
+                            <a href="certifications/Python-Basic.pdf.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                View Certificate <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Certificate 7: SQL Basic -->
+                    <div class="cert-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3 class="cert-title">SQL Basic</h3>
+                            <a href="certifications/SQL-Basic.pdf.pdf" target="_blank" rel="noopener noreferrer" class="cert-link">
+                                View Certificate <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 8. CODING PROFILES SECTION -->
+        <section id="coding-profiles" class="section">
+            <div class="container">
+                <h2 class="section-title">Coding Profiles</h2>
+                <div class="underline"></div>
+
+                <div class="coding-grid">
+                    <!-- Profile 1: GeeksforGeeks -->
+                    <div class="coding-card">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>GeeksforGeeks</h3>
+                        <span class="coding-stat">50+ Problems Solved</span>
+                    </div>
+
+                    <!-- Profile 2: LeetCode -->
+                    <div class="coding-card">
+                        <i class="fa-solid fa-terminal"></i>
+                        <h3>LeetCode</h3>
+                        <span class="coding-stat">40+ Problems Solved</span>
+                    </div>
+
+                    <!-- Profile 3: HackerRank -->
+                    <div class="coding-card">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>HackerRank</h3>
+                        <span class="coding-stat">30+ Problems Solved</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 9. CONTACT SECTION -->
+        <section id="contact" class="section bg-alt">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="underline"></div>
+
+                <div class="contact-wrapper">
+                    <!-- Contact Details & Social Links -->
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>
+                            I am currently looking for internship and career opportunities in software development. Feel free to reach out!
+                        </p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:your.email@example.com" style="color: inherit; text-decoration: none;">[your.email@example.com]</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Hyderabad, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <a href="https://github.com/Anshu-Repala" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" title="GitHub Profile">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/anshu-repala-681aa2319/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:your.email@example.com" aria-label="Email Me" title="Send Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Contact Form -->
+                    <div class="contact-form-container">
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Enter message subject" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+
+                            <!-- Submission Status Alert Container -->
+                            <div id="formAlert" class="form-alert hidden"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="currentYear"></span> Anshu Repala. Built with HTML, CSS, and JavaScript.</p>
+            <a href="#home" class="back-to-top" title="Back to top">
+                <i class="fa-solid fa-arrow-up"></i> Top
+            </a>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
